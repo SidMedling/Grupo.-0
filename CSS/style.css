@@ -9,6 +9,20 @@ Html{
 }
 
 
+/**Utilidades**/
+
+.margen-50{
+    margin-top:5rem;
+}
+
+.margen-100{
+    margin-top:10rem;
+}
+
+.margen-150{
+    margin-top:150rem;
+}
+
 
 /**Globales**/
 
@@ -58,16 +72,24 @@ li{
 
 
 
-.pintura_descripcion ol{
+.descripcion_ol {
 
-    margin-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    list-style: none;
+    
     
 }
+
+.descripcion_ol li{
+    margin-bottom: 1rem;
+}
+
 
 .pintura_descripcion h2{
 
     margin-left: 5rem ;
+    font-size: 3rem;
 }
 
 
@@ -81,6 +103,7 @@ li{
 .descripcion p{
     margin-left: 5rem;
     font-style: oblique;
+    font-size: 2rem;
 }
 
 .descripcion h2{
@@ -102,4 +125,37 @@ li{
     margin-left: 7rem;
     
 
+}
+
+
+
+
+
+
+/**PAGINA AUTOR**/
+
+
+.autor{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.autor_pintura{
+
+    width: 30rem;
+    height: 40rem;
+}
+
+
+.autor_nombre{
+
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top:10px;
+    font-weight: 700;
+
+
+    
 }
