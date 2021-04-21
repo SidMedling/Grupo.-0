@@ -1,0 +1,105 @@
+Html{  
+	Box-sizing: border-box; 
+	Font-size: 62.5%;    
+} 
+
+*, *:before, *:after{
+	Box-sizing: inherit;  
+
+}
+
+
+
+/**Globales**/
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+
+}
+
+li{
+    font-size: 2rem;
+}
+
+
+
+
+
+/**Pagina Descripcion**/
+
+.pintura{
+
+    display:flex;
+    margin-top: 5rem;
+}
+
+.pintura_img{
+
+   box-shadow: 0px 0px 40px 0px gray ;
+
+}
+
+.pintura_img img{
+    max-height: 50rem;
+    
+    
+}
+
+
+
+
+
+.pintura_descripcion ol{
+
+    margin-left: 5rem;
+    margin-top: 2rem;
+    
+}
+
+.pintura_descripcion h2{
+
+    margin-left: 5rem ;
+}
+
+
+
+.descripcion{
+
+    margin-top: 3rem;
+    
+}
+
+.descripcion p{
+    margin-left: 5rem;
+    font-style: oblique;
+}
+
+.descripcion h2{
+
+    font-size: 2.5rem;
+}
+
+
+
+
+.separador{
+
+    content: "";
+    display:block;
+    width: 0.2rem;
+    height: 50rem;
+    background-color: #E1E1E1;
+
+    margin-left: 7rem;
+    
+
+}
