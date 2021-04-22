@@ -13,7 +13,7 @@ body{
 
         font-size:16px;
         font-family: 'Krub', sans-serif;
-        background-image: linear-gradient( to top, #e4e1e1 0%, white 100% );
+        background-image: linear-gradient( to top, #dbdbdb 0%, white 100% );
 }
 
 
@@ -46,6 +46,14 @@ body{
 .td-none{
     text-decoration: none;
 }
+
+.oblicuo{
+    font-style: oblique;
+}
+
+
+
+
 
 
 
@@ -163,6 +171,12 @@ li{
 /**PAGINA AUTOR**/
 
 
+.contenedor_autor{
+    display:flex;
+    flex-direction: column;
+    
+}
+
 
 
 .autor{
@@ -171,6 +185,7 @@ li{
     align-items: center;
     flex-direction: column;
     margin-bottom: 4rem;
+    
 }
 
 .titulo_autor{
@@ -224,16 +239,30 @@ li{
 
 .seccion-categoria{
 
-    background-image: url(../resource/C6-Diego-Rivera-y-el-cubismo-miniatura.jpg);
+    
     height: 40vh;
     background-position:center center;
     background-size:cover;
     display:flex;
     align-items:center;
     
-    
 
 }
+
+.categoria1{
+    background-image: url(../resource/img-categoria1.jpg);
+}
+
+.categoria2{
+    background-image: url(../resource/img-categoria2.jpg);
+}
+
+.categoria3{
+    background-image: url(../resource/img-categoria3.jpg);
+}
+
+
+
 
 .contenedor_categoria{
 
