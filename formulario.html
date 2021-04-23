@@ -29,7 +29,7 @@
             <a class="nav-link" href="contactanos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="categoria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle " href="categoria.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Categorias
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -54,7 +54,7 @@
 
           <li class="nav-item">
   
-            <a class="nav-link" href="formulario.html" tabindex="-1" aria-disabled="true">Publicar obra</a>
+            <a class="nav-link active" href="formulario.html" tabindex="-1" aria-disabled="true">Publicar obra</a>
           </li>
 
           <li class="nav-item">
@@ -77,12 +77,12 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
 
-        <h1 class="centrar-texto fw-300">Publicar Obra</h1>
+        
         
         <main class="contenido-centrado contenedor-2 seccion row">
     
             <form action="#">
-                <h2 class="centrar-texto fw-300 ">Formulario Publicacion</h2>
+                <h2 class="centrar-texto fw-500 ">Formulario Publicacion</h2>
 
                 <fieldset>
                     <legend>Informacion Personal</legend>
@@ -98,9 +98,30 @@
        
                 </fieldset>
                 <fieldset>
-                  <legend>Detalles del producto</legend>
-                  <label for="cantidad-1">Cantidad</label>
-                  <input class="input-4" type="text" id="cantidad">
+                  <legend class="fw-500">Detalles del producto</legend>
+
+                  <label for="nom">Nombre de la obra</label>
+                  <input class="input-4" type="text" id="nom">
+
+                  <label for="precio">Precio</label>
+                  <input class="input-4" type="number" id="precio">
+
+                  <label for="tecnica">Técnica</label>
+                  <input class="input-4" type="text" id="tecnica">
+
+                  <label for="soporte">Soporte</label>
+                  <input class="input-4" type="text" id="soporte">
+
+                  <label for="medidas">medidas</label>
+                  <input class="input-4" type="text" id="medidas">
+
+                  <label for="fechar">Fecha de realización</label>
+                  <input class="input-4" type="date" id="fechar">
+
+                  <label for="categoria">Categoria</label>
+                  <input class="input-4" type="text" id="categoria">
+
+
                   <label for="opciones-1">Vender</label>
                   <Select id="opciones">
                       <option value="" disabled selected>--Seleccione--</option>
@@ -116,7 +137,7 @@
 
                 
 
-            <input type="submit" value="Enviar" class="boton boton-verde input-4">
+            <input type="submit" value="Enviar" class="btn btn-primary btn-lg boton-login">
             </form>
     
         </main>
