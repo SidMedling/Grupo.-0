@@ -131,6 +131,11 @@ select{
 
 }
 
+.margen-50{
+
+    margin-top: 50px;
+}
+
 select{
     -webkit-appearance: none;
      appearance: none;

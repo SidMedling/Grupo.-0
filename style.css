@@ -30,7 +30,10 @@ li{
 }
 
 
+.margen-100{
 
+    margin-top: 100px;
+}
 
 
 
@@ -87,5 +90,63 @@ li{
     }
 
     
+
+}
+
+
+
+
+/**Nuestros artistas***/
+
+
+.integrante{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-bottom: 50px;
+
+}
+
+
+.integrante_img{
+
+    width: 50%;
+    
+
+    padding-top: 3%;
+
+    border-radius: 50%; 
+    background-position: center;
+    background-size: cover;
+
+}
+
+.aa{
+    height: 245.183px;
+}
+
+
+.integrante_nombre{
+
+    padding-top:10px;
+
+    font-weight: 700;
+
+    color: #018DC8;
+
+}
+
+
+.titulo_modelo{
+
+    color:black;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
