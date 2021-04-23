@@ -43,7 +43,9 @@ body{
 }
 
 .formulario-3{
-    background-color:rgb(255, 239, 239);
+    background: linear-gradient(-45deg,#9c9c9c, #dfdfdf, #8f8f8f, #fffefe);
+    background-size: 400% 400%;
+    position:relative;
     margin-top: 45px;
     padding: 5px;
     box-shadow: 7px 13px 37px #000;   
@@ -85,13 +87,14 @@ p{
 
 /***contactanos***/
 
-.fw-300{
+.fw-300-2{
     text-align:center;
     font-weight: 500px;
-    color: rgb(70, 68, 68);
+    color: rgb(107, 106, 106);
+    padding: 10px;
 }
 
-.centrar-texto{
+.centrar-texto-1{
     text-align:center;
 
 }
@@ -106,64 +109,69 @@ p{
     text-align:center;
     border:none;
     padding: 55px;
-
+ 
  }
 
- .contenido-centrado{
+ .contenido-centrado-1{
      
-    max-width:800px;
+    max-width: 800px;
     
 
 }
 
-.contenedor{
+.contenedor-1{
 
-    max-width: 120rem;
+    max-width: 200%;
     margin-bottom: 15px;
-    border: 1px; 
+    border: 5px; 
     background: linear-gradient(-45deg,#9c9c9c, #dfdfdf, #8ac4df, #cabdbd);
     background-size: 400% 400%;
     position:relative;
     display:flex;
     justify-content:space-between;
-    align-items: center;
-    color: rgb(109, 104, 104);
+    align-items: flex-start;
     padding: 55px;
+    border-radius: 15px;
      
 
 
 }
-.seccion{
+.seccion-1{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding: 55px;
-  
+    padding: 50px;
+    
+ 
 }
-.contacto{
+.contacto-1{
 
     font-size:1.2rem;
-    color:#4f4f4f;
     margin: 2rem 0 0 0;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 5px; 
+    
+    
+    
 
 
 }
 
 legend{
     font-size: 2rem;
-    color: #4f4f4f;
-
+    color: #5f5d5d;
+    margin-top: 15px;
+     
 
 }
 
 label{
     font-weight:600;
-    display:block;
-    text-transform: uppercase;
+    display:flex;
+    color: rgb(83, 83, 83);
+    margin-top: 10px;
+
 }
-
-
-
 
 .input-2:not([type="submit"]),
 textarea,
@@ -175,6 +183,8 @@ select{
     width:100%;
     margin-bottom:2rem;
     border-radius:2rem;
+    margin-top: 12px;
+    
     
 }
 
@@ -188,6 +198,8 @@ select{
 .input-3[type="radio"]{
     width:auto;
     margin:0;
+
+    
 
 
 }
@@ -205,7 +217,7 @@ textarea{
 
 
 }
-.forma-contacto{
+.forma-contacto-1{
     max-width: 30rem;
     display:flex;
     justify-content:space-between;
@@ -221,4 +233,26 @@ textarea{
 .boton22{
     display: flex;
     justify-content: space-between;
+  
+   
+}
+/***nav***/
+body{
+
+    font-size:16px;
+    font-family: 'Krub', sans-serif;
+    background: linear-gradient(-45deg,#cac5c5, #dfdfdf, #c9bebe, #fffefe);
+    background-size: 400% 400%;
+    position:relative;
+}
+
+
+.padd{
+    padding: 10px 100px !important;
+}
+
+
+
+li{
+    font-size: 20px;
 }
