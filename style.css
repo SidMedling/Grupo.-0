@@ -1,10 +1,8 @@
 body{
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue ;
-    padding-left:  12px;
-    padding-right: 12px;
-    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    
+    font-size:16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient( to top, #dbdbdb 0%, white 100% );
 }
 
 .form-inline{
@@ -12,15 +10,23 @@ body{
     justify-content: center;
 }
 
-.boton22{
-    display: flex;
-    justify-content: space-between;
+
+.margen-50{
+
+    margin-top: 50px;
 }
-.header{
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 12px;
+
+.fs-as{
+    font-size: 1.3rem
 }
+
+
+.centrar{
+    text-align: center;
+    
+}
+
+
 .footer2{
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     background-color: aliceblue;
