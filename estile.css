@@ -21,6 +21,10 @@ body{
 .boton-login:hover{
     background: rgb(31, 87, 206);
 }
+
+.fs-as{
+    font-size: 1.3rem
+}
 .formulario-2{
     background-color:rgb(196, 192, 192);
     margin-top: 60px;
