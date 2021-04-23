@@ -2,6 +2,10 @@
 .fw-300{
 
     font-weight:300;
+    text-align:center;
+    font-weight: 500px;
+    color: rgb(107, 106, 106);
+    padding: 10px;
 }
 .centrar-texto{
 
@@ -18,11 +22,12 @@
     color:#ffffff;
     font-weight: 700;
     font-size:1.8rem;
-    padding: 10px 30px;
+    padding:1rem 3rem;
     margin-top:30px;
     display:inline-block;
     text-align:center;
     border:none;
+    padding: 55px;
 
  }
 .boton-verde{
@@ -35,19 +40,33 @@
 }
 .contenedor1{
 
-    max-width: 120rem;
-    margin: 0 auto;
+    max-width: 200%;
+    margin-bottom: 15px;
+    border: 5px; 
+    background: linear-gradient(-45deg,#9c9c9c, #dfdfdf, #8ac4df, #cabdbd);
+    background-size: 400% 400%;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 55px;
+    border-radius: 15px;
+    
 
 }
 .seccion{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding: 50px;
 }
 .contacto p{
 
     font-size:1.2rem;
     color:#4f4f4f;
     margin: 2rem 0 0 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 5px; 
 
 
 }
@@ -56,14 +75,16 @@ legend{
 
     font-size: 2rem;
     color: #4f4f4f;
+    margin-top: 15px;
 
 
 }
 
 label{
     font-weight:600;
-    display:block;
-    text-transform: uppercase;
+    display:flex;
+    color: rgb(83, 83, 83);
+    margin-top: 10px;
 }
 
 
@@ -77,8 +98,9 @@ select{
     border:none;
     display:block;
     width:100%;
-    margin-bottom:20px;
-    border-radius:20px;
+    margin-bottom:2rem;
+    border-radius:2rem;
+    margin-top: 12px;
 
 
 
@@ -100,8 +122,15 @@ input[type="radio"]{
 }
 
 textarea{
-
-    width:75rem;
+    width: 100%;
+    padding: 15px0;
+    margin-top: 10px;
+    border: 1px solid #7ac9b7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 10px;
+    text-align: left;
 
 
 }
@@ -111,6 +140,14 @@ textarea{
     justify-content:space-between;
     align-items: center;
 
+}
+.padd{
+    padding: 1rem 10rem !important;
+}
 
-
+.boton22{
+    display: flex;
+    justify-content: space-between;
+  
+   
 }
