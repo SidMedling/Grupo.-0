@@ -1,4 +1,29 @@
 
+
+body{
+    
+    font-size:16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient( to top, #dbdbdb 0%, white 100% );
+}
+
+
+.padd{
+    padding: 10px 100px !important;
+    font-size: 21px !important;
+}
+
+
+
+li{
+    font-size: 20px;
+}
+
+
+
+
+
+
 .fw-300{
 
     font-weight:300;
@@ -9,9 +34,17 @@
 
 }
 
+
+
+
 .fs-as{
     font-size: 1.3rem
 }
+
+
+
+
+
 .boton{
 
     text-decoration:none;
@@ -69,7 +102,7 @@ label{
 
 
 
-input:not([type="submit"]),
+.input-4:not([type="submit"]),
 textarea,
 select{
     padding:1rem;
