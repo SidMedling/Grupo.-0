@@ -94,6 +94,10 @@ p{
     padding: 10px;
 }
 
+.fs-as{
+    font-size: 1.3rem
+}
+
 .centrar-texto-1{
     text-align:center;
 
@@ -109,6 +113,7 @@ p{
     text-align:center;
     border:none;
     padding: 55px;
+    
  
  }
 
@@ -120,7 +125,6 @@ p{
 }
 
 .contenedor-1{
-
     max-width: 200%;
     margin-bottom: 15px;
     border: 5px; 
@@ -130,11 +134,10 @@ p{
     display:flex;
     justify-content:space-between;
     align-items: flex-start;
-    padding: 55px;
     border-radius: 15px;
+    padding: 55px;
+    
      
-
-
 }
 .seccion-1{
     margin-top: 2rem;
@@ -150,10 +153,6 @@ p{
     padding: 5px;
     margin-bottom: 15px;
     border: 5px; 
-    
-    
-    
-
 
 }
 
@@ -161,6 +160,7 @@ legend{
     font-size: 2rem;
     color: #5f5d5d;
     margin-top: 15px;
+    
      
 
 }
@@ -170,8 +170,18 @@ label{
     display:flex;
     color: rgb(83, 83, 83);
     margin-top: 10px;
+    padding-left: 16px;
+    padding-left: 1rem;
 
 }
+.pa-1{
+    font-weight:600;
+    display:flex;
+    color: rgb(99, 95, 95);
+    margin-top: 10px;
+    padding-left: 2rem;
+}
+
 
 .input-2:not([type="submit"]),
 textarea,
@@ -191,22 +201,16 @@ select{
 select{
     -webkit-appearance: none;
      appearance: none;
-
-
 }
 
 .input-3[type="radio"]{
     width:auto;
     margin:0;
-
-    
-
-
 }
 
 textarea{
     width: 100%;
-    padding: 15px0;
+    padding: 15px;
     margin-top: 10px;
     border: 1px solid #7ac9b7;
     border-radius: 5px;
@@ -215,17 +219,14 @@ textarea{
     font-size: 10px;
     text-align: left;
 
-
 }
 .forma-contacto-1{
     max-width: 30rem;
     display:flex;
     justify-content:space-between;
     align-items: center;
-
-
-
 }
+
 .padd{
     padding: 1rem 10rem !important;
 }
@@ -234,8 +235,8 @@ textarea{
     display: flex;
     justify-content: space-between;
   
-   
 }
+
 /***nav***/
 body{
 

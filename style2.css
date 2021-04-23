@@ -26,9 +26,8 @@ li{
 
 .fw-300{
 
-    font-weight:300;
     text-align:center;
-    font-weight: 500px;
+    font-weight: 100px;
     color: rgb(107, 106, 106);
     padding: 10px;
 }
@@ -38,29 +37,23 @@ li{
 
 }
 
-
-
-
 .fs-as{
     font-size: 1.3rem
 }
 
 
-
-
-
 .boton{
-
     text-decoration:none;
     color:#ffffff;
     font-weight: 700;
-    font-size:1.8rem;
-    padding:1rem 3rem;
-    margin-top:30px;
+    font-size:1.0rem;
+    padding:0.1rem 3rem;
+    margin-top:10px;
     display:inline-block;
     text-align:center;
     border:none;
-    padding: 55px;
+    border-radius: 15px;
+    
 
  }
 .boton-verde{
@@ -71,7 +64,7 @@ li{
     max-width:800px;
 
 }
-.contenedor1{
+.contenedor-2{
 
     max-width: 200%;
     margin-bottom: 15px;
@@ -92,7 +85,7 @@ li{
     margin-bottom: 2rem;
     padding: 50px;
 }
-.contacto p{
+.contacto{
 
     font-size:1.2rem;
     color:#4f4f4f;
@@ -109,6 +102,7 @@ legend{
     font-size: 2rem;
     color: #4f4f4f;
     margin-top: 15px;
+    padding-left: 15px;
 
 
 }
@@ -122,20 +116,18 @@ label{
 
 
 
-
 .input-4:not([type="submit"]),
 textarea,
 select{
     padding:1rem;
-    background-color: #e1e1e1;
+    background-color: #f0f0f0;
     border:none;
     display:block;
     width:100%;
     margin-bottom:2rem;
     border-radius:2rem;
     margin-top: 12px;
-
-
+    
 
 }
 
@@ -146,8 +138,7 @@ select{
 
 }
 
-input[type="radio"]{
-
+.input-5[type="radio"]{
     width:auto;
     margin:0;
 
@@ -155,7 +146,7 @@ input[type="radio"]{
 }
 
 textarea{
-    width: 100%;
+
     padding: 15px;
     margin-top: 10px;
     border: 1px solid #7ac9b7;
@@ -168,7 +159,7 @@ textarea{
 
 }
 .forma-contacto{
-    max-width: 30rem;
+    
     display:flex;
     justify-content:space-between;
     align-items: center;
