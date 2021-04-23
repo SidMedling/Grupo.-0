@@ -5,6 +5,19 @@ body{
     background-image: linear-gradient( to top, #dbdbdb 0%, white 100% );
 }
 
+.padd{
+    padding: 10px 100px !important;
+}
+
+
+
+li{
+    font-size: 20px;
+}
+
+
+
+
 .form-inline{
     display: flex;
     justify-content: center;
@@ -18,9 +31,7 @@ body{
 
 
 
-.fs-as{
-    font-size: 1.3rem
-}
+
 
 
 .centrar{
@@ -75,9 +86,6 @@ body{
         width: 300px;
     }
 
-    .padd{
-        padding: 1rem 10rem !important;
-    }
-
+    
 
 }
