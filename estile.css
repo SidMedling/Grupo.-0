@@ -89,6 +89,7 @@ p{
     text-align:center;
     font-weight: 500px;
     color: rgb(70, 68, 68);
+    padding: 10px;
 }
 
 .centrar-texto{
@@ -145,6 +146,9 @@ p{
     color:#4f4f4f;
     margin: 2rem 0 0 0;
     padding: 10px;
+    margin-bottom: 15px;
+    border: 5px; 
+    padding: 10px;
 
 
 }
@@ -152,7 +156,6 @@ p{
 legend{
     font-size: 2rem;
     color: #4f4f4f;
-
 
 }
 
