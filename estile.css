@@ -199,6 +199,8 @@ select{
     width:auto;
     margin:0;
 
+    
+
 
 }
 
@@ -233,4 +235,24 @@ textarea{
     justify-content: space-between;
   
    
+}
+/***nav***/
+body{
+
+    font-size:16px;
+    font-family: 'Krub', sans-serif;
+    background: linear-gradient(-45deg,#cac5c5, #dfdfdf, #c9bebe, #fffefe);
+    background-size: 400% 400%;
+    position:relative;
+}
+
+
+.padd{
+    padding: 10px 100px !important;
+}
+
+
+
+li{
+    font-size: 20px;
 }
