@@ -85,17 +85,6 @@ li{
     margin-bottom: 2rem;
     padding: 50px;
 }
-.contacto{
-
-    font-size:1.2rem;
-    color:#4f4f4f;
-    margin: 2rem 0 0 0;
-    padding: 5px;
-    margin-bottom: 15px;
-    border: 5px; 
-
-
-}
 
 legend{
 
@@ -163,13 +152,7 @@ textarea{
 
 
 }
-.forma-contacto{
-    
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
 
-}
 .padd{
     padding: 1rem 10rem !important;
 }
