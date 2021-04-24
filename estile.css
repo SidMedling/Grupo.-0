@@ -233,9 +233,7 @@ textarea{
     align-items: center;
 }
 
-.padd{
-    padding: 1rem 10rem !important;
-}
+
 
 .boton22{
     display: flex;
@@ -262,4 +260,4 @@ body{
 
 li{
     font-size: 20px;
-}
+}z
