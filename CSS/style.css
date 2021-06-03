@@ -1,0 +1,348 @@
+
+
+body{
+   
+
+        font-size:16px;
+        font-family: 'Krub', sans-serif;
+        background-image: linear-gradient( to top, #dbdbdb 0%, white 100% );
+}
+
+
+
+.padd{
+    padding: 10x 100px !important;
+    font-size: 21px !important;
+    
+}
+
+
+
+
+li{
+    font-size: 20px;
+}
+
+
+
+input[type="radio"]{
+
+    width:auto;
+    margin:0;
+
+
+}
+
+
+
+/**Utilidades**/
+
+.margen-50{
+    margin-top:50px;
+}
+
+.margen-100{
+    margin-top:100px;
+}
+
+.margen-150{
+    margin-top:150px;
+}
+
+
+.centrar-texto{
+    text-align: center;
+}
+
+
+.fs-400{
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+.td-none{
+    text-decoration: none;
+}
+
+.oblicuo{
+    font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+/**Globales**/
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+
+
+
+
+/**Pagina Descripcion**/
+
+.pintura{
+
+    display:flex;
+    margin-top: 50px;
+}
+
+
+@media(max-width: 1020px){
+
+    .pintura{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    
+
+}
+
+
+
+.pintura_img img{
+    max-height: 500px;
+
+    box-shadow: 0px 0px 40px 0px gray ;
+    
+    
+}
+
+
+
+
+
+
+.descripcion_ol {
+
+    margin-top: 30px;
+    margin-left: 30px;
+    list-style: none;
+    
+    
+}
+
+.descripcion_ol li{
+    margin-bottom: 10px;
+}
+
+
+.pintura_descripcion h2{
+
+    margin-left: 50px ;
+    font-size: 30px;
+}
+
+
+
+.descripcion{
+
+    margin-top: 30px;
+    
+}
+
+.descripcion p{
+    margin-left: 50px;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.descripcion h2{
+
+    font-size: 25px;
+}
+
+
+
+
+.separador{
+
+    content: "";
+    display:block;
+    width: 2px;
+    height: 500px;
+    background-color: #E1E1E1;
+
+    margin-left: 70px;
+    
+
+}
+
+
+@media(max-width: 1020px){
+
+    .separador{
+        margin-top:70px;
+        width: 0px;
+        height: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+/**PAGINA AUTOR**/
+
+
+.contenedor_autor{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+
+.autor{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+.titulo_autor{
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.p_autor{
+    font-weight: 200;
+}
+
+@media(max-width:992px){
+
+    .p_autor{
+        padding-right:30px ;
+        padding-left: 40px ;
+    }
+
+
+}
+
+
+.titulo_obras{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.titulo_obras_totales{
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+
+
+.autor_pintura{
+
+    width: 300px;
+    height: 400px;
+}
+
+
+
+
+.autor_nombre{
+
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top:10px;
+    font-weight: 700;
+
+
+    
+}
+
+
+
+/**Página categoria**/
+
+.autor_creador{
+    margin-bottom: 40px;
+    margin-top: -20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+
+
+.seccion-categoria{
+
+    
+    height: 40vh;
+    background-position:center center;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    
+
+}
+
+.categoria1{
+    background-image: url(../resource/img-categoria1.jpg);
+}
+
+.categoria2{
+    background-image: url(../resource/img-categoria2.jpg);
+}
+
+.categoria3{
+    background-image: url(../resource/img-categoria3.jpg);
+}
+
+
+
+
+.contenedor_categoria{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.contenido-categoria{
+
+    color:white;
+    margin-top: 80px;
+}
+
+.contenido-categoria h2{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
