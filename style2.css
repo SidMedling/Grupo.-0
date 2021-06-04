@@ -102,6 +102,10 @@ label{
     color: rgb(83, 83, 83);
     margin-top: 10px;
 }
+label.error{
+    color: red;
+    font-style: italic;
+}
 
 
 

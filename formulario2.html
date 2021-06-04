@@ -10,27 +10,29 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
     <div class="row">
         
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
             
-            <form class="formulario-3">
+            <form class="formulario-3" id="formulario-3">
                 <div class="contenedor-2 ">
                     <div class="input-contenedor row">
                         <label for="ejemploDropdownFormNombre2" class="form-label" > Nombre Completo</label>
-                        <input type="text"class="form-control" id="ejemploDropdownFormUsuario"  placeholder="Nombre Completo" >                
+                        <input type="text"class="form-control" id="ejemploDropdownFormUsuario" name="nombreC" placeholder="Nombre Completo" >                
                     </div>
                     <div class="input-contenedor row">
                         <label for="exampleDropdownFormEmail1" class="form-label">Ingrese Correo</label>
-                        <input type="email" class="form-control"id="exampleDropdownFormEmail1" placeholder="email@example.com">                
+                        <input type="email" class="form-control"id="exampleDropdownFormEmail1" name="correoE" placeholder="email@example.com">                
                     </div>
                     <div class="input-contenedor row">
                         <label for="ejemploDropdownFormPassword2" class="form-label">Crear Contraseña</label>
-                        <input type="password"class="form-control" id="ejemploDropdownFormPassword2" placeholder="Contraseña">        
+                        <input type="password"class="form-control" id="ejemploDropdownFormPassword2" name="password" placeholder="Contraseña">        
                     </div>
                     <div class="boton-login">
                         <a class="btn btn-primary btn-lg boton-login" href="formulario1.html" role="button">Registrarse</a>       
@@ -46,6 +48,40 @@
         <div class="col-lg-1"></div>
         <a class="navbar-brand logo-2 " href="index.html"><img src="resource/logo2.png"  alt="imagen-logo-2">   </a>
     </div>
-   
+   <script>
+       $(document).ready(function(){
+            $("#formulario-3").validate({
+                rules: {
+                    nombreC:{
+                        required: true,
+                        minlength: 5
+                    },
+                    correoE: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 5
+                    }
+
+                },
+                messages: {
+                    nombreC:{
+                        required: "Ingrese su nombre completo",
+                        minlength: "Ingrese al menos 5 caracteres"
+                    },
+                    correoE: {
+                        required: "Ingrese su correo electronico",
+                        email: "Ingrese un email valido"
+                    },
+                    password: {
+                        required: "Ingrese una contraseña",
+                        minlength: "Ingrese una contraeña con más de 5 caracteres"
+                    }
+                }
+            });
+       });
+   </script>
 </body>
 </html>
