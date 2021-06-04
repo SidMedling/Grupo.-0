@@ -260,12 +260,10 @@
    $.get("https://api.artic.edu/api/v1/artworks/search?q=cubism?page=1&limit=100", function(js){
  
  
-         do {
-         var num_aleatorio =  Math.floor((Math.random() * (99-0))+0);
-          var num_aleatorio2 =  Math.floor((Math.random() * (99-0))+0);
-          var num_aleatorio3 =  Math.floor((Math.random() * (99-0))+0);
- 
-         } while(num_aleatorio === num_aleatorio2 === num_aleatorio3)  
+        
+         var num_aleatorio =  Math.floor((Math.random() * (99-60))+60);
+          var num_aleatorio2 =  Math.floor((Math.random() * (59-30))+30);
+          var num_aleatorio3 =  Math.floor((Math.random() * (29-0))+0);
           
           var id_arte = js.data[num_aleatorio].id;
           var id_arte2 = js.data[num_aleatorio2].id;

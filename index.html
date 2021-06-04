@@ -272,7 +272,7 @@
      
      <p id="id_descripcion2" class="contenido__bajada">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis praesentium, at libero quam ex blanditiis tenetur officiis iste labore dicta voluptatem, odit pariatur sequi.</p>
      
-     <p id="id_fuente1">fuente:  </p>
+     <p id="id_fuente2">fuente:  </p>
 
     </div>
   
@@ -308,7 +308,7 @@
      
      <p id="id_descripcion3" class="contenido__bajada">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis praesentium, at libero quam ex blanditiis tenetur officiis iste labore dicta voluptatem, odit pariatur sequi.</p>
      
-     <p id="id_fuente1">fuente:  </p>
+     <p id="id_fuente3">fuente:  </p>
 
     </div>
   
@@ -371,7 +371,7 @@
     $("#pag-1").css("color","white");
     $("#pag-1").css("background-color","#0A58CA");
 
-        $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js){
+      $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js){
           
       //Articulo 1;
 
@@ -425,73 +425,6 @@
 
 
 
-
-
-   
-
- $("#id_pagina-2").click(function(){
-
-   $("#pag-2").css("background-color","#0A58CA");
-   $("#pag-2").css("color","white");
-   $("#pag-1").css("background-color","white");
-   $("#pag-1").css("color","black");
-
-
-     $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js2){
-
-      //Articulo 4;
-
-      $("#id_imagen1").html("<img class='noticia-img' src="+js2.articles[4].image+">");
-      $("#id_titulo1").html(js2.articles[4].title);
-      $("#id_descripcion1").html(js2.articles[4].description);
-      $("#id_fecha1").html(js2.articles[4].publishedAt);
-      $("#id_fuente1").append(j2.articles[4].source.url);
-
-      //Articulo 5;
-
-      $("#id_imagen2").html("<img class='noticia-img' src="+js2.articles[5].image+">");
-      $("#id_titulo2").html(js2.articles[5].title);
-      $("#id_descripcion2").html(js2.articles[5].description);
-      $("#id_fecha2").html(js2.articles[5].publishedAt);
-      $("#id_fuente2").append(j2.articles[5].source.url);
-
-      //Articulo6
-
-      $("#id_imagen3").html("<img class='noticia-img' src="+js2.articles[9].image+">");
-      $("#id_titulo3").html(js2.articles[9].title);
-      $("#id_descripcion3").html(js2.articles[9].description);
-      $("#id_fecha3").html(js2.articles[9].publishedAt);
-      $("#id_fuente3").append(js2.articles[9].source.url);
-
-      $("#id_contenedor_noticia1").click(function(){
-
-        window.open(js2.articles[4].url,'_blanck')
-
-        });
-
-
-        $("#id_contenedor_noticia2").click(function(){
-
-        window.open(js2.articles[5].url,'_blanck')
-
-        });
-
-
-        $("#id_contenedor_noticia3").click(function(){
-
-        window.open(js2.articles[9].url,'_blanck')
-
-        });
-
-
-
-
-
-      });
-          
-      
-      
-      });
 
  $("#pag-1").click(function(){
 
@@ -554,6 +487,75 @@
       
       
       });
+
+
+        
+
+ $("#pag-2").click(function(){
+
+$("#pag-2").css("background-color","#0A58CA");
+$("#pag-2").css("color","white");
+$("#pag-1").css("background-color","white");
+$("#pag-1").css("color","black");
+
+
+  $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js){
+
+   //Articulo 4;
+
+   $("#id_imagen1").html("<img class='noticia-img' src="+js.articles[4].image+">");
+   $("#id_titulo1").html(js.articles[4].title);
+   $("#id_descripcion1").html(js.articles[4].description);
+   $("#id_fecha1").html(js.articles[4].publishedAt);
+   $("#id_fuente1").append(js.articles[4].source.url);
+
+   //Articulo 5;
+
+   $("#id_imagen2").html("<img class='noticia-img' src="+js.articles[5].image+">");
+   $("#id_titulo2").html(js.articles[5].title);
+   $("#id_descripcion2").html(js.articles[5].description);
+   $("#id_fecha2").html(js.articles[5].publishedAt);
+   $("#id_fuente2").append(js.articles[5].source.url);
+   //Articulo6
+
+   $("#id_imagen3").html("<img class='noticia-img' src="+js.articles[9].image+">");
+   $("#id_titulo3").html(js.articles[9].title);
+   $("#id_descripcion3").html(js.articles[9].description);
+   $("#id_fecha3").html(js.articles[9].publishedAt);
+   $("#id_fuente3").append(js.articles[9].source.url);
+
+   $("#id_contenedor_noticia1").click(function(){
+
+     window.open(js.articles[4].url,'_blanck')
+
+     });
+
+
+     $("#id_contenedor_noticia2").click(function(){
+
+     window.open(js.articles[5].url,'_blanck')
+
+     });
+
+
+     $("#id_contenedor_noticia3").click(function(){
+
+     window.open(js.articles[9].url,'_blanck')
+
+     });
+
+
+
+
+
+   });
+       
+   
+   
+   });
+
+
+
  
  
  });
