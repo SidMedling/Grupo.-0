@@ -179,6 +179,11 @@ li{
     flex-direction: row-reverse;
 }
 
+.selecion-img:hover{
+    cursor: pointer;
+   
+    filter:opacity(95%)
+}
 
 
 
