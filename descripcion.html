@@ -278,6 +278,7 @@
           var id_arte3 = js.data[num_aleatorio3].id;
           
              $.get("https://api.artic.edu/api/v1/artworks/"+id_arte, function(js2){
+               
      
                  //d.innerHTML +="artista: "+js2.data.artist_title+"<br>";
                  $("#desc1_obra_rel_1").html("<img class='autor_pintura' src='https://www.artic.edu/iiif/2/"+js2.data.image_id+"/full/843,/0/default.jpg'>");

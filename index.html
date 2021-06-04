@@ -8,8 +8,11 @@
   <link  rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style2.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -112,7 +115,7 @@
     </div>
     <div class="carousel-inner">
     
-      <div class="carousel-item active">
+      <div class="carousel-item active selecion-img">
 
         <a href="descripcion.html">
         <img src="resource/index1.bmp" class="d-block w-100" alt="...">
@@ -124,7 +127,7 @@
         </div>
       </div>
       
-      <div class="carousel-item">
+      <div class="carousel-item selecion-img">
         <a href="descripcion3.html">
         <img src="resource/index2.bmp" class="d-block w-100" alt="...">
         </a>
@@ -133,7 +136,7 @@
           <p>Guillermo Pérez </p>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item selecion-img">
         <a href="descripcion2.html">
         <img src="resource/index3.bmp" class="d-block w-100" alt="...">
         </a>
@@ -212,6 +215,137 @@
 
   </div> 
 
+  <h2 class="titulo_modelo margen-50" id="id_nosotros">Noticias Relacionadas con el Arte</h2>
+
+
+
+
+  <div class="container">
+
+    <div id="id_contenedor_noticia1" class="contenedor-noticia">
+  
+      <div id="id_imagen1"  class="noticia-img">
+        <img  class="noticia-img" src="resource/img-header2-1.png" alt="">
+      </div>
+  
+      <div class="noticia-contenido">
+  
+        <div class="titulo_agrupacion">  
+        <h3 id="id_titulo1" class="contenido__titulo">Las crónicas de Daniel Alarcón </h3>
+        
+       </div>
+
+       <div class="agrupacion_fuente">
+       
+       <p id="id_descripcion1" class="contenido__bajada">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis praesentium, at libero quam ex blanditiis tenetur officiis iste labore dicta voluptatem, odit pariatur sequi.</p>
+       
+       <p id="id_fuente1">fuente:  </p>
+
+      </div>
+    
+  
+      </div>
+  
+    </div>
+  
+   
+   </div> 
+
+
+
+
+ <div class="margen-100"></div>
+   
+
+
+ <div class="container">
+
+  <div id="id_contenedor_noticia2" class="contenedor-noticia contenedor-noticia-reversa">
+
+    <div id="id_imagen2"  class="noticia-img">
+      <img  class="noticia-img" src="resource/img-header2-1.png" alt="">
+    </div>
+
+    <div class="noticia-contenido">
+
+      <div class="titulo_agrupacion">  
+      <h3 id="id_titulo2" class="contenido__titulo">Las crónicas de Daniel Alarcón </h3>
+      
+     </div>
+
+     <div class="agrupacion_fuente">
+     
+     <p id="id_descripcion2" class="contenido__bajada">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis praesentium, at libero quam ex blanditiis tenetur officiis iste labore dicta voluptatem, odit pariatur sequi.</p>
+     
+     <p id="id_fuente1">fuente:  </p>
+
+    </div>
+  
+
+    </div>
+
+  </div>
+
+ 
+ </div> 
+
+
+
+ <div class="margen-100"></div>
+
+
+ <div class="container">
+
+  <div id="id_contenedor_noticia3" class="contenedor-noticia">
+
+    <div id="id_imagen3"  class="noticia-img">
+      <img  class="noticia-img" src="resource/img-header2-1.png" alt="">
+    </div>
+
+    <div class="noticia-contenido">
+
+      <div class="titulo_agrupacion">  
+      <h3 id="id_titulo3" class="contenido__titulo">Las crónicas de Daniel Alarcón </h3>
+      
+     </div>
+
+     <div class="agrupacion_fuente">
+     
+     <p id="id_descripcion3" class="contenido__bajada">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias perspiciatis praesentium, at libero quam ex blanditiis tenetur officiis iste labore dicta voluptatem, odit pariatur sequi.</p>
+     
+     <p id="id_fuente1">fuente:  </p>
+
+    </div>
+  
+
+    </div>
+
+  </div>
+
+ 
+ </div> 
+
+<div class="margen-100"> </div>
+
+<div class="row">
+  <div class="col-8"></div>
+  <div class="col-2">
+   <nav aria-label="...">
+  <ul id="pagina-cambio" class="pagination pagination-lg">
+    
+    <li  class="page-item "><a class="page-link" id="pag-1" href="#id_nosotros">1</a></li>
+   
+    
+    <li id="id_pagina-2" class="page-item"><a class="page-link" id="pag-2" href="#id_nosotros">2</a></li>
+   
+  </ul>
+</nav>
+</div>
+<div class="col-2"></div>
+</div>
+
+<div class="margin-100"></div>
+
 
 
 
@@ -226,6 +360,223 @@
   </div>
   <!-- Copyright -->
 </footer>
+
+
+
+
+<script>  
+
+
+  $(document).ready(function(){
+
+   
+
+    $("#pag-2").css("background-color","white");
+    $("#pag-2").css("color","black");
+    $("#pag-1").css("color","white");
+    $("#pag-1").css("background-color","#0A58CA");
+
+        $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js){
+          
+      //Articulo 1;
+
+      $("#id_imagen1").html("<img class='noticia-img' src="+js.articles[0].image+">");
+      $("#id_titulo1").html(js.articles[0].title);
+      $("#id_descripcion1").html(js.articles[0].description);
+      $("#id_fecha1").html(js.articles[0].publishedAt);
+      $("#id_fuente1").append(js.articles[0].source.url);
+
+      
+      
+      //Articulo 2;
+
+      $("#id_imagen2").html("<img class='noticia-img' src="+js.articles[1].image+">");
+      $("#id_titulo2").html(js.articles[1].title);
+      $("#id_descripcion2").html(js.articles[1].description);
+      $("#id_fecha2").html(js.articles[1].publishedAt);
+      $("#id_fuente2").append(js.articles[1].source.url);
+
+      //Articulo3
+
+      $("#id_imagen3").html("<img class='noticia-img' src="+js.articles[2].image+">");
+      $("#id_titulo3").html(js.articles[2].title);
+      $("#id_descripcion3").html(js.articles[2].description);
+      $("#id_fecha3").html(js.articles[2].publishedAt);
+      $("#id_fuente3").append(js.articles[2].source.url);
+
+
+      $("#id_contenedor_noticia1").click(function(){
+
+        window.open(js.articles[0].url,'_blanck')
+       
+      });
+
+
+      $("#id_contenedor_noticia2").click(function(){
+
+        window.open(js.articles[1].url,'_blanck')
+       
+      });
+
+
+      $("#id_contenedor_noticia3").click(function(){
+
+        window.open(js.articles[2].url,'_blanck')
+       
+      });
+
+   
+    });
+
+
+
+
+
+   
+
+ $("#id_pagina-2").click(function(){
+
+   $("#pag-2").css("background-color","#0A58CA");
+   $("#pag-2").css("color","white");
+   $("#pag-1").css("background-color","white");
+   $("#pag-1").css("color","black");
+
+
+     $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js2){
+
+      //Articulo 4;
+
+      $("#id_imagen1").html("<img class='noticia-img' src="+js2.articles[4].image+">");
+      $("#id_titulo1").html(js2.articles[4].title);
+      $("#id_descripcion1").html(js2.articles[4].description);
+      $("#id_fecha1").html(js2.articles[4].publishedAt);
+      $("#id_fuente1").append(j2.articles[4].source.url);
+
+      //Articulo 5;
+
+      $("#id_imagen2").html("<img class='noticia-img' src="+js2.articles[5].image+">");
+      $("#id_titulo2").html(js2.articles[5].title);
+      $("#id_descripcion2").html(js2.articles[5].description);
+      $("#id_fecha2").html(js2.articles[5].publishedAt);
+      $("#id_fuente2").append(j2.articles[5].source.url);
+
+      //Articulo6
+
+      $("#id_imagen3").html("<img class='noticia-img' src="+js2.articles[9].image+">");
+      $("#id_titulo3").html(js2.articles[9].title);
+      $("#id_descripcion3").html(js2.articles[9].description);
+      $("#id_fecha3").html(js2.articles[9].publishedAt);
+      $("#id_fuente3").append(js2.articles[9].source.url);
+
+      $("#id_contenedor_noticia1").click(function(){
+
+        window.open(js2.articles[4].url,'_blanck')
+
+        });
+
+
+        $("#id_contenedor_noticia2").click(function(){
+
+        window.open(js2.articles[5].url,'_blanck')
+
+        });
+
+
+        $("#id_contenedor_noticia3").click(function(){
+
+        window.open(js2.articles[9].url,'_blanck')
+
+        });
+
+
+
+
+
+      });
+          
+      
+      
+      });
+
+ $("#pag-1").click(function(){
+
+  $("#pag-2").css("background-color","white");
+  $("#pag-2").css("color","black");
+  $("#pag-1").css("color","white");
+  $("#pag-1").css("background-color","#0A58CA");
+
+          $.get("https://gnews.io/api/v4/search?q=%22arte%20contemporaneo%22&token=f0717fb5afc99d7bdbb5d5cb8dc17ffa&lang=es", function(js){
+
+        //Articulo 1;
+
+        $("#id_imagen1").html("<img class='noticia-img' src="+js.articles[0].image+">");
+        $("#id_titulo1").html(js.articles[0].title);
+        $("#id_descripcion1").html(js.articles[0].description);
+        $("#id_fecha1").html(js.articles[0].publishedAt);
+        $("#id_fuente1").append(js.articles[0].source.url);
+
+        //Articulo 2;
+
+        $("#id_imagen2").html("<img class='noticia-img' src="+js.articles[1].image+">");
+        $("#id_titulo2").html(js.articles[1].title);
+        $("#id_descripcion2").html(js.articles[1].description);
+        $("#id_fecha2").html(js.articles[1].publishedAt);
+        $("#id_fuente2").append(js.articles[1].source.url);
+
+        //Articulo3
+
+        $("#id_imagen3").html("<img class='noticia-img' src="+js.articles[2].image+">");
+        $("#id_titulo3").html(js.articles[2].title);
+        $("#id_descripcion3").html(js.articles[2].description);
+        $("#id_fecha3").html(js.articles[2].publishedAt);
+        $("#id_fuente3").append(js.articles[2].source.url);
+
+
+        $("#id_contenedor_noticia1").click(function(){
+
+          window.open(js.articles[0].url,'_blanck')
+
+          });
+
+
+          $("#id_contenedor_noticia2").click(function(){
+
+          window.open(js.articles[1].url,'_blanck')
+
+          });
+
+
+          $("#id_contenedor_noticia3").click(function(){
+
+          window.open(js.articles[2].url,'_blanck')
+
+          });
+
+
+
+        });
+          
+      
+      
+      });
+ 
+ 
+ });
+ 
+ 
+
+ 
+ </script>
+
+
+
+
+
+
+
+
+
+
 
 
 
