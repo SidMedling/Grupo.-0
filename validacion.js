@@ -26,7 +26,7 @@
                     },
                       messages: {
                         nombre: {
-                            required: "Ingrese su nombre correctamente",
+                            required: "Ingrese su nombre porfavor",
                             maxlength: "Su nombre es demasiado largo",
                         },
                         email: {
